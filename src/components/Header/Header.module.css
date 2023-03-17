@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close {
+  background-image: url(./assets/ic_close_24px\ copy.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  margin: 10% 4%;
+}
+
+.wrapper p {
+  margin: 8%;
+  font-family: "SFProText";
+  font-size: 13px;
+  line-height: 41px;
+  align-items: center;
+  letter-spacing: -0.216667px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+

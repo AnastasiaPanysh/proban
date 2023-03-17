@@ -1,0 +1,114 @@
+.wrapper {
+  justify-content: space-between;
+  margin: 7%;
+  display: flex;
+}
+
+.wrapper-left {
+  background: rgba(73, 87, 149, 0.197154);
+  border: 1px solid #495795;
+  border-radius: 20.9px;
+  width: 144.39px;
+  height: 178px;
+}
+
+.wrapper-left h2 {
+  font-family: "SFProText";
+  font-size: 18.7px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin: 15%;
+}
+
+.wrapper-left h1 {
+  font-family: "SFProText";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 15px;
+  color: #ffffff;
+  margin: 15% auto 0;
+  text-align: center;
+}
+
+.wrapper-left p {
+  font-family: "SFProText";
+  margin-top: 4%;
+  font-size: 13.2px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.wrapper-left h3 {
+  background: #495795;
+  font-family: "SFProText";
+  font-size: 15.4px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 3%;
+  margin: 7% auto;
+}
+.wrapper-right {
+  background: rgba(73, 87, 149, 0.197154);
+  border: 1px solid #495795;
+  border-radius: 20.9px;
+  width: 144.39px;
+  height: 178px;
+}
+
+.wrapper-right h2 {
+  font-family: "SFProText";
+  font-size: 18.7px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin: 15%;
+}
+
+.wrapper-right h1 {
+  font-family: "SFProText";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 15px;
+  color: #ffffff;
+  margin: 15% auto 0;
+  text-align: center;
+}
+
+.wrapper-right p {
+  font-family: "SFProText";
+  margin-top: 4%;
+  font-size: 13.2px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.wrapper-right h3 {
+  background: #495795;
+  font-family: "SFProText";
+  font-size: 15.4px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 3%;
+  margin: 7% auto;
+}
+
+.btn {
+  background: linear-gradient(270deg, #1987ff 0%, #19ccff 100%);
+  border-radius: 30px;
+  width: 280px;
+  height: 54px;
+  margin: 2% auto;
+}
+.btn p {
+  padding: 6%;
+  font-size: 17px;
+  line-height: 17px;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+}

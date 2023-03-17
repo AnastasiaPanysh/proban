@@ -1,0 +1,29 @@
+.wrapper p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  /* identical to box height, or 118% */
+  margin-top: 5%;
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.footer-p {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-p p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #bdc0d0;
+}

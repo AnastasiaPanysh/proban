@@ -1,0 +1,51 @@
+.preview h1 {
+  margin-top: 30%;
+  font-family: "SFProText";
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+  width: 230px;
+  margin: 0 auto;
+  margin-top: 12%;
+}
+.wrapper .feature {
+  display: flex;
+}
+
+.wrapper .feature .img-1 {
+  background-image: url(./assets/img-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 23px;
+  height: 15px;
+  margin: 4%;
+}
+.wrapper .feature .img-2 {
+  background-image: url(./assets/export.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 23px;
+  height: 15px;
+  margin: 4%;
+}
+.wrapper .feature .img-3 {
+  background-image: url(./assets/no\ ads.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 23px;
+  height: 15px;
+  margin: 4%;
+}
+
+.wrapper .feature p {
+  font-family: "SFProText";
+  font-size: 17px;
+  line-height: 30px;
+  color: #ffffff;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.684495);
+}
