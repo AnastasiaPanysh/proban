@@ -13,6 +13,8 @@ function Pricing() {
                 </div>
 
                 <div className={style["wrapper-right"]}>
+                    <div className={style["img-back"]}></div>
+                    <div className={style["img-red"]}></div>
                     <h2>Annually</h2>
                     <h1>$19.99</h1>
                     <p>per year</p>

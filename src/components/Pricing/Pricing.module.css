@@ -2,6 +2,7 @@
   justify-content: space-between;
   margin: 7%;
   display: flex;
+  align-items: center;
 }
 
 .wrapper-left {
@@ -10,6 +11,7 @@
   border-radius: 20.9px;
   width: 144.39px;
   height: 178px;
+  z-index: 1;
 }
 
 .wrapper-left h2 {
@@ -47,34 +49,55 @@
   line-height: 18px;
   text-align: center;
   color: #ffffff;
-  padding: 3%;
+  padding: 2%;
   margin: 7% auto;
 }
 .wrapper-right {
-  background: rgba(73, 87, 149, 0.197154);
-  border: 1px solid #495795;
-  border-radius: 20.9px;
-  width: 144.39px;
-  height: 178px;
+  position: relative;
+  width: 131px;
+  height: 160px;
+}
+
+.img-back {
+  background-image: url(./assets/Combined\ Shape@3x.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 131px;
+  height: 160px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+.img-red {
+  background-image: url(./assets/Group\ 9.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  margin-left: 77%;
+  opacity: 0.6;
 }
 
 .wrapper-right h2 {
   font-family: "SFProText";
-  font-size: 18.7px;
+  font-size: 17px;
   line-height: 22px;
   text-align: center;
   color: #ffffff;
-  margin: 15%;
+  opacity: 0.6;
 }
 
 .wrapper-right h1 {
   font-family: "SFProText";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 15px;
   color: #ffffff;
-  margin: 15% auto 0;
+  margin: 10% auto 0;
   text-align: center;
+  opacity: 0.6;
 }
 
 .wrapper-right p {
@@ -84,17 +107,19 @@
   line-height: 15px;
   text-align: center;
   color: #ffffff;
+  opacity: 0.6;
 }
 
 .wrapper-right h3 {
   background: #495795;
   font-family: "SFProText";
-  font-size: 15.4px;
+  font-size: 14px;
   line-height: 18px;
   text-align: center;
   color: #ffffff;
-  padding: 3%;
-  margin: 7% auto;
+  padding: 2%;
+  margin: 5% auto;
+  opacity: 0.6;
 }
 
 .btn {
