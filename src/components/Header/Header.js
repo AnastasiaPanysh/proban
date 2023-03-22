@@ -7,7 +7,7 @@ function Header() {
     const { t } = useTranslation();
     return (
         <>
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
         <div className={style["wrapper"]}>
             <div className={style["close"]}></div>
             <p>{t('Restore')}</p>
