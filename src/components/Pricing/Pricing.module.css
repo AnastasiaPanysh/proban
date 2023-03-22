@@ -3,37 +3,50 @@
   margin: 7%;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
-.wrapper-left {
+.wrapper-left, .wrapper-left-change{
   background: rgba(73, 87, 149, 0.197154);
   border: 1px solid #495795;
   border-radius: 20.9px;
-  width: 144.39px;
+  width: 145px;
   height: 178px;
-  z-index: 1;
 }
 
-.wrapper-left h2 {
+.wrapper-left-change {
+  width: 131px;
+  height: 160px;
+  opacity: 0.6;
+}
+
+.wrapper-left h2,
+.wrapper-left-change h2 {
   font-family: "SFProText";
   font-size: 18.7px;
   line-height: 22px;
   text-align: center;
   color: #ffffff;
-  margin: 15%;
+  margin: 12%;
 }
 
-.wrapper-left h1 {
+.wrapper-left h1,
+.wrapper-left-change h1 {
   font-family: "SFProText";
   font-weight: 700;
   font-size: 24px;
   line-height: 15px;
   color: #ffffff;
-  margin: 15% auto 0;
+  margin: 12% auto 0;
   text-align: center;
 }
+.wrapper-left-change h1 {
+  margin: 8% auto 0;
+  font-size: 20px;
+}
 
-.wrapper-left p {
+.wrapper-left p,
+.wrapper-left-change p {
   font-family: "SFProText";
   margin-top: 4%;
   font-size: 13.2px;
@@ -42,7 +55,8 @@
   color: #ffffff;
 }
 
-.wrapper-left h3 {
+.wrapper-left h3,
+.wrapper-left-change h3 {
   background: #495795;
   font-family: "SFProText";
   font-size: 15.4px;
@@ -50,15 +64,23 @@
   text-align: center;
   color: #ffffff;
   padding: 2%;
-  margin: 7% auto;
+  margin: 5% auto;
 }
 .wrapper-right {
   position: relative;
   width: 131px;
   height: 160px;
+  opacity: 0.6;
 }
 
-.img-back {
+.wrapper-right-change {
+  position: relative;
+  width: 145px;
+  height: 178px;
+}
+
+.wrapper-right .img-back,
+.wrapper-right-change .img-back {
   background-image: url(./assets/Combined\ Shape@3x.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -67,7 +89,10 @@
   position: absolute;
   top: 0;
   right: 0;
-
+}
+.wrapper-right-change .img-back {
+  width: 145px;
+  height: 178px;
 }
 
 .img-red {
@@ -77,19 +102,28 @@
   width: 30px;
   height: 30px;
   margin-left: 77%;
-  opacity: 0.6;
 }
 
-.wrapper-right h2 {
+.wrapper-right-change .img-red {
+  width: 35px;
+  height: 35px;
+}
+
+.wrapper-right h2,
+.wrapper-right-change h2 {
   font-family: "SFProText";
   font-size: 17px;
   line-height: 22px;
   text-align: center;
   color: #ffffff;
-  opacity: 0.6;
 }
 
-.wrapper-right h1 {
+.wrapper-right-change h2 {
+  font-size: 19px;
+}
+
+.wrapper-right h1,
+.wrapper-right-change h1 {
   font-family: "SFProText";
   font-weight: 700;
   font-size: 22px;
@@ -97,20 +131,20 @@
   color: #ffffff;
   margin: 10% auto 0;
   text-align: center;
-  opacity: 0.6;
 }
 
-.wrapper-right p {
+.wrapper-right p,
+.wrapper-right-change p {
   font-family: "SFProText";
   margin-top: 4%;
   font-size: 13.2px;
   line-height: 15px;
   text-align: center;
   color: #ffffff;
-  opacity: 0.6;
 }
 
-.wrapper-right h3 {
+.wrapper-right h3,
+.wrapper-right-change h3 {
   background: #495795;
   font-family: "SFProText";
   font-size: 14px;
@@ -119,7 +153,7 @@
   color: #ffffff;
   padding: 2%;
   margin: 5% auto;
-  opacity: 0.6;
+
 }
 
 .btn {
